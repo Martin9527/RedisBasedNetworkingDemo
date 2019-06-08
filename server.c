@@ -81,7 +81,7 @@ void AcceptTcpHandler(aeEventLoop *el, int fd, void *privdata, int mask)
 int main()
 {
 
-    printf("Start\n");
+    printf("Server Start\n");
 
     signal(SIGINT, StopServer);
 
